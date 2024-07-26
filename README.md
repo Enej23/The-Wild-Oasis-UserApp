@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# The Wild Oasis - User App
 
-## Getting Started
+Check out the app at : https://the-wild-oasis-user-app.vercel.app/
 
-First, run the development server:
+The Wild Oasis User App is a complementary application to the hotel management system, designed specifically for hotel guests. This app streamlines the process of making reservations, viewing booking details, and managing guest information, providing a seamless and user-friendly experience for hotel visitors.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js**
+- **Node.js**
+- **HTML, CSS, JS**
+- **React**
+- **SupaBase**
+- **NextAuth.js**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **User Account Management**: Allows new users to sign up within google
+- **Booking Creation**:  Users can easily create new reservations by selecting desired cabins, specifying arrival and departure dates, and providing necessary guest details.
+- **Booking Overview**: Provides a comprehensive view of all reservations, displaying important details such as arrival and departure dates, booking status, paid amount, and associated cabin information.
+- **Detailed Booking Data**: Captures additional booking information such as the number of guests, guest observations, breakfast booking, and associated prices.
+- **Booking Actions**: Users can cancel or modify their reservations directly within the app
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## How to Run
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/Enej23/The-Wild-Oasis-UserApp.git
+2. **Run the development server**:
+   ```sh
+   npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Screenshots
 
-## Deploy on Vercel
+![image](https://github.com/user-attachments/assets/5706bc40-53e5-4c19-98e0-8ac0ab60685b)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![image](https://github.com/user-attachments/assets/09d24db9-fbe8-497a-8220-ccfb43712faf)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![image](https://github.com/user-attachments/assets/d7272215-3cef-4cf6-806f-ca4819e84083)
+
+![image](https://github.com/user-attachments/assets/8cc9f310-3fd3-4af9-9fe6-53d40c643c79)
+
